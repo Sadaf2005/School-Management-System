@@ -1,0 +1,28 @@
+/* src/Components/Home.css */
+.google-map-container {
+    margin-top: 50px; /* Adjust the margin as needed */
+    text-align: center;
+  }
+  
+  .home-header {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnb0bzabZGuNxd3hrgNPYn60X63sFzFNLuWQ&s') no-repeat center center;
+    background-size: cover;
+    height: 100vh; /* Full height */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-white {
+    color: #fff; /* Ensures text is readable against the background */
+  }
+  
